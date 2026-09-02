@@ -1,0 +1,25 @@
+{
+    "version":"0.2.0",
+    "configurations": [
+        {
+            "name":"Play in Godot",
+            "type":"coreclr",
+            "request":"launch",
+            "preLaunchTask": "build",
+            "program":"D:/PROJECT/GODOT/Godot_v4.7.2-stable_mono_win64/Godot_v4.7.2-stable_mono_win64.exe",
+            "args":[
+                "--path",
+                "${workspaceFolder}"    
+            ],
+            "cwd":"${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name":"Attach to Godot",
+            "type":"coreclr",
+            "request":"attach",
+            "processId":"${command:pickProcess}"
+        }
+    ]
+}

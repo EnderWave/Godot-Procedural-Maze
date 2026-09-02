@@ -1,0 +1,9 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+# C# / Mono specific ignores
+.mono/
+Export/
+bin/
+obj/
+*.csproj.user
